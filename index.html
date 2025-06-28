@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <div class="header-content">
+    <img src="Soumyadip Profile.jpg" alt="Your Photo" class="profile-pic">
+    <div class="text-content">
+      <h1>SOUMYADIP BANERJEE</h1>
+      <p>Student | Developer | Learner</p>
+    </div>
+  </div>
+</header>
+
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am a student passionate about web development and programming.</p>
+  </section>
+  
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project">
+    <h3>BMI Calculator</h3>
+    <p>A Body Mass Indicator calculator which tells about the condition of your body</p>
+    <div class="button-group">
+      <button onclick="window.open('https://soumyadip-6195.github.io/Body-Mass-Calculator/')">Live Demo</button>
+      <button onclick="window.open('https://github.com/Soumyadip-6195/Body-Mass-Calculator')">Source Code</button>
+    </div>
+  </div>
+
+  <div class="project">
+    <h3>Portfolio Website</h3>
+    <p>Personal website built using HTML, CSS, and JavaScript.</p>
+    <div class="button-group">
+      <button onclick="window.open('https://soumyadip-6195.github.io/Portfolio/')">View Site</button>
+      <button onclick="window.open('https://github.com/Soumyadip-6195')">GitHub</button>
+    </div>
+  </div>
+</section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Java</li>
+      <li>Python</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form onsubmit="return handleSubmit();">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+  <p>© 2025 Your Name</p>
+  <p>
+    <a href="https://www.linkedin.com/in/soumyadip-banerjee-25a487348/" target="_blank" class="social-link">
+      LinkedIn
+    </a>
+  </p>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
