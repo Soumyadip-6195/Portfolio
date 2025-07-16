@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <div class="header-content">
+    <img src="Soumyadip Profile-MRENGINEER-TUF.jpg" alt="Your Photo" class="profile-pic">
+    <div class="text-content">
+      <h1>SOUMYADIP BANERJEE</h1>
+      <p>Student | Developer | Learner</p>
+    </div>
+  </div>
+</header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#certificates">Achievements</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am a student passionate about web development and programming.</p>
+  </section>
+  
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project">
+    <h3>BMI Calculator</h3>
+    <p>A Body Mass Indicator calculator which tells about the condition of your body</p>
+    <div class="button-group">
+      <button onclick="window.open('https://soumyadip-6195.github.io/Body-Mass-Calculator/')">Live Demo</button>
+      <button onclick="window.open('https://github.com/Soumyadip-6195/Body-Mass-Calculator')">Source Code</button>
+    </div>
+  </div>
+
+  <div class="project">
+    <h3>Portfolio Website</h3>
+    <p>Personal website built using HTML, CSS, and JavaScript.</p>
+    <div class="button-group">
+      <button onclick="window.open('https://soumyadip-6195.github.io/Portfolio/')">View Site</button>
+      <button onclick="window.open('https://github.com/Soumyadip-6195')">GitHub Link</button>
+    </div>
+  </div>
+</section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Java</li>
+      <li>Python</li>
+    </ul>
+  </section>
+
+  <section id="certificates">
+    <h2>Achievements & Certificates</h2>
+
+    <div class="certificate-list">
+      <div class="certificate-item">
+        <h3>Full Stack Development With Python</h3>
+        <p>Issued by JIS University</p>
+        <a href="Pythonfullstack.pdf" target="_blank" class="cert-button">View Certificate</a>
+      </div>
+
+
+      <div class="certificate-item">
+        <h3>Cyber Security & Ethical Hacking Workshop</h3>
+        <p>Issued by JIS University</p>
+        <a href="Cybersecurity.pdf" target="_blank" class="cert-button">View Certificate</a>
+      </div>
+
+      <div class="certificate-item">
+        <h3>NPTEL Online Certification(Programming in Java)</h3>
+        <p>Issued by JIS University</p>
+        <a href="NPTELcert.pdf" target="_blank" class="cert-button">View Certificate</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form onsubmit="return handleSubmit();">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Soumyadip Banerjee</p>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/soumyadip-banerjee-25a487348" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn">
+      </a>
+      <a href="https://www.instagram.com/soumyadipbanerjee619?igsh=OXJhZ3MyZHlzbjFn" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+      </a>
+      <a href="https://www.facebook.com/share/16N9S7AqQJ/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="Facebook">
+      </a>
+      <a href="https://x.com/Soumyad76692312?t=3m7ps_h2VAI6Fhx_BCubHQ&s=09" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/124/124021.png" alt="Twitter">
+      </a>
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
