@@ -1,4 +1,3 @@
-/* Reset default margins and paddings */
 * {
   margin: 0;
   padding: 0;
@@ -49,6 +48,9 @@ header {
   color: #e0e0e0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 nav {
   background: #212d41;
@@ -89,7 +91,6 @@ h2 {
   padding: 1.5em;
   margin-bottom: 1.5em;
   border-left: 5px solid #4e54c8;
-  border-top: 5px solid #4e54c8;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.4s ease;
@@ -140,22 +141,10 @@ form button:hover {
 
 footer {
   background: #222;
-  color: white;
+  color: rgb(254, 252, 252);
   text-align: center;
   padding: 1em;
   margin-bottom: 0.2em;
-}
-
-footer a.social-link {
-  color: #f4d03f;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s ease;
-}
-
-footer a.social-link:hover {
-  color: #ffffff;
-  text-decoration: underline;
 }
 
 .button-group {
@@ -177,4 +166,78 @@ footer a.social-link:hover {
 .button-group button:hover {
   background-color: #373bb2;
   transform: scale(1.05);
+}
+
+#certificates {
+  padding: 3em 2em;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.certificate-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.certificate-item {
+  background: white;
+  padding: 1.5em;
+  border-radius: 10px;
+  border-left: 5px solid #4e54c8;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease;
+}
+
+.certificate-item:hover {
+  transform: scale(1.04);
+}
+
+.certificate-item h3 {
+  margin: 0 0 0.3em;
+  color: #4e54c8;
+}
+
+.certificate-item p {
+  margin-bottom: 0.8em;
+  color: #555;
+}
+
+.cert-button {
+  display: inline-block;
+  padding: 5px 16px;
+  background-color: #4e54c8;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.4s ease;
+}
+
+.cert-button:hover {
+  background-color: #373bb2;
+  transform: scale(1.04);
+}
+
+.social-icons {
+  margin-top:10px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img {
+  width: 28px;
+  height: 28px;
+  vertical-align: middle;
+  border: #e0e0e0;
+  border-radius: 1cm;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
 }
